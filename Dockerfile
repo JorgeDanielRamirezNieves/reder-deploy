@@ -13,4 +13,4 @@ COPY --from=build /target/demodespliegue-0.0.1-SNAPSHOT.jar demodespligue.jar
 
 # ENV PORT=8080
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","demodespliegue.jar"]
+ENTRYPOINT ["java","-jar","demodespliegue-0.0.1-SNAPSHOT.jar"]
